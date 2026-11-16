@@ -1,0 +1,24 @@
+# 大件与生成物，不入库
+deliverables/*.mp4
+frames/
+frames_chick/
+frames_test/
+source/frames/
+source/frames_chick/
+source/chick.mp4
+_trash/
+preview/
+ext/
+
+# 中间产物
+*.png
+*.jpg
+*.mp4
+
+# 但 README 引用的示意图要入库
+!frame120_demo.png
+
+# 工具与环境
+driver/__pycache__/
+__pycache__/
+.workbuddy/
